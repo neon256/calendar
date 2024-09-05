@@ -1,0 +1,29 @@
+.info{
+    background: #d33939;
+    color: white;
+    width: 30%;
+    height: calc(100vh - 40px);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.date__now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 200px;
+}
+.day{
+    line-height: 15px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+svg{
+    cursor: pointer;
+}
