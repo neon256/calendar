@@ -13,7 +13,7 @@ function App() {
     'Пятница',
     'Суббота'
   ];
-  const deadline = new Date(2025, 5, 1)
+  const deadline = new Date(2025, 5, 1) - 10195200000
   const date = new Date()
   const day = date.getDate()
   const dayOfWeek =days[date.getDay()]
