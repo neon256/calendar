@@ -8,7 +8,7 @@ const Counter = ({deadline, date}) => {
     const deff = deadline - date
   return (
     <div className={cl.counter__container}>
-        <p className={cl.counter}>До каникул осталось: <Countdown date={Date.now() + deff} /></p>
+        <p className={cl.counter}>До конца практики осталось: <Countdown date={Date.now() + deff} /></p>
     </div>
   )
 }
